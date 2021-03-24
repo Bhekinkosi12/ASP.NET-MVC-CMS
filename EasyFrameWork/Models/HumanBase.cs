@@ -9,13 +9,9 @@ namespace Easy.Models
     [Serializable]
     public class HumanBase : EditorEntity
     {
-        /// <summary>
-        /// 姓
-        /// </summary>
+     
         public string LastName { get; set; }
-        /// <summary>
-        /// 名
-        /// </summary>
+    
         public string FirstName { get; set; }
         /// <summary>
         /// 昵称
